@@ -8,7 +8,7 @@ const MenuItem = ({item}) => {
       <Typography component='div' variant='h6'>{item.name}</Typography>
       <Rating value={4.5} precision={0.5} size='small'/>
       <Typography component='p'>{item.description}</Typography>
-      <Typography className='card-price' variant='h6' component='div'>$ {item.price}</Typography>
+      <Typography className='card-price' variant='h6' component='div'> {item.price}</Typography>
     </Card>
   )
 }

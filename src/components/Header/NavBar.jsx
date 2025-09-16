@@ -37,7 +37,7 @@ export default function NavBar() {
       <AppBar sx={{backgroundColor:'white'}} position='static'>
         <Toolbar>
           <Typography variant="h5" component="div" sx={{ flexGrow: 1,color:'#e52b34',fontSize:'30px' }}>
-            Codx.
+            Niket Food .
           </Typography>
             <div>
             <Badge color="warning" variant="dot">

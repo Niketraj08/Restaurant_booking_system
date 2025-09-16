@@ -30,8 +30,8 @@ const [open, setOpen] = React.useState(false);
 
 //form validation
 function FormValidate(e) {
-  if (e.Email === "user@gmail.com") {
-    if (e.Psw === "1234") {
+  if (e.Email === "demo@gmail.com") {
+    if (e.Psw === "demo123") {
       //auth change value and page navigate to home screen
       setAuth(true);
       toast.success("Login Successfully!");
@@ -72,11 +72,11 @@ function FormValidate(e) {
           <Typography id="modal-modal-title" variant="h6">
             UserName
           </Typography>
-          <Typography component="p">user@gmail.com</Typography>
+          <Typography component="p">demo@gmail.com</Typography>
           <Typography id="modal-modal-title" variant="h6" marginTop={5}>
             Password
           </Typography>
-          <Typography component="p">1234</Typography>
+          <Typography component="p">demo123</Typography>
         </Card>
       </Modal>
     </Container>
